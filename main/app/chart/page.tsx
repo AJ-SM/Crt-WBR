@@ -34,7 +34,7 @@ const data = {
 
   const options = {
   
-    animation:false,
+    
     scales: {
       x: {
         grid: {
@@ -83,11 +83,22 @@ const data = {
 
 
   return(<>
+<div className=' flex h-screen w-screen justify-between bg-slate-950'> 
 
-  <div className="h-screen w-250">
+  <div className="h-150 w-250">
     <Line options={options} data={data} />
-
   </div>
+    <div className='h-150 w-100 border-2 border-amber-50 m-8 rounded-3xl p-2'>
+      <div className=' flex justify-center  w-93 text-3xl font-extrabold'> Configs</div>
+      
+      
+
+
+    </div>
+
+
+</div>
+
   
   
   
